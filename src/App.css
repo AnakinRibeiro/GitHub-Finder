@@ -19,7 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #FAFBFC;
   color: #333;
 }
 
@@ -111,8 +111,9 @@ img {
 
 /* Cards */
 .card {
+  background-color: #fff;
   padding: 1rem;
-  border: #ccc 1px dotted;
+  border: #ccc 1px solid;
   margin: 0.7rem 0;
 }
 
@@ -348,14 +349,13 @@ table th {
 
 /* Navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background-color: #24292E;
 }
 
 .navbar ul {
@@ -366,6 +366,15 @@ table th {
   color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
+}
+
+.navbar span {
+  color: white;
+  font-size: 22px;
+}
+
+.navbar i {
+  color: white;
 }
 
 .navbar a:hover {
