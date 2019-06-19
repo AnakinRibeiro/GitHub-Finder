@@ -41,6 +41,17 @@ img {
 }
 
 /* Utilities */
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -349,13 +360,12 @@ table th {
 
 /* Navbar */
 .navbar {
-
+  background-color: #24292E;
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
-  background-color: #24292E;
 }
 
 .navbar ul {
@@ -417,6 +427,7 @@ table th {
   }
 
   .navbar ul {
+    display: inline;
     text-align: center;
     justify-content: center;
   }
